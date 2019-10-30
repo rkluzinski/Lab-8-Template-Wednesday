@@ -1,6 +1,7 @@
 package com.example.simpleparadox.listycity;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -20,6 +21,10 @@ public class CityList {
             throw new IllegalArgumentException();
         }
         cities.add(city);
+    }
+
+    public void addAll(Collection<City> cityCollection) {
+        cities.addAll(cityCollection);
     }
 
     /**
