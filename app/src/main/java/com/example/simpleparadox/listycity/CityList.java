@@ -24,7 +24,7 @@ public class CityList {
     }
 
     public void addAll(Collection<City> cityCollection) {
-
+        cities.addAll(cityCollection);
     }
 
     /**
